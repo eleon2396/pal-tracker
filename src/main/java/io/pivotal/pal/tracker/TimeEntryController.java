@@ -14,7 +14,7 @@ class TimeEntryController {
 
     private TimeEntryRepository timeEntryRepository;
 
-    public TimeEntryController(@Autowired TimeEntryRepository timeEntryRepository){
+    public TimeEntryController(TimeEntryRepository timeEntryRepository){
         this.timeEntryRepository = timeEntryRepository;
     }
 
