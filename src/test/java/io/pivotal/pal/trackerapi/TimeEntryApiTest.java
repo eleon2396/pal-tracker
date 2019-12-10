@@ -1,4 +1,4 @@
-package test.pivotal.pal.trackerapi;
+package io.pivotal.pal.trackerapi;
 
 import com.jayway.jsonpath.DocumentContext;
 import io.pivotal.pal.tracker.PalTrackerApplication;
@@ -19,6 +19,7 @@ import java.util.Collection;
 
 import static com.jayway.jsonpath.JsonPath.parse;
 import static org.assertj.core.api.Assertions.assertThat;
+
 import static org.springframework.boot.test.context.SpringBootTest.WebEnvironment.RANDOM_PORT;
 
 @RunWith(SpringRunner.class)
